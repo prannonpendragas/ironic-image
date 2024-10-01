@@ -96,7 +96,7 @@ run_ironic_dbsync()
 }
 
 # Use the special value "unix" for unix sockets
-export IRONIC_PRIVATE_PORT=${IRONIC_PRIVATE_PORT:-unix}
+export IRONIC_PRIVATE_PORT=${IRONIC_PRIVATE_PORT:-6388}
 
 export IRONIC_ACCESS_PORT=${IRONIC_ACCESS_PORT:-6385}
 export IRONIC_LISTEN_PORT=${IRONIC_LISTEN_PORT:-$IRONIC_ACCESS_PORT}
